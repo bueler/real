@@ -3,7 +3,7 @@ layout: course-page
 title: Bueler's Math F401 at UAF
 ---
 
-# CAUTION: UNDER CONSTRUCTION!!
+# CAUTION: STILL UNDER CONSTRUCTION!!
 
 Welcome to the public homepage of **Math F401 Introduction to Real Analysis**, Fall 2025, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
@@ -23,11 +23,11 @@ Log in to [canvas.alaska.edu/courses/27104](https://canvas.alaska.edu/courses/27
 
 * The [Schedule (PDF)](assets/general/F25/schedule.pdf) is my longer-term plan.  Check it for exam dates and due dates, and for which topics come next!
 
-* The [daily log](daily) has the recent happenings, including handouts and worksheets as PDFs.
+* The [daily log](daily) has upcoming and recent happenings, including handouts and worksheets as PDFs.
 
-* Check out the nearly-weekly [Homework assignments](homework).
+* Check out the nearly-weekly Homework assignments on the [Homework](homework) tab.
 
-* FIXME There are two Exams, a Midterm and a Final.  Both are in class, and the Final will happen at the scheduled time.  See the [Exams tab](exams) for review guides.
+* There will be three exams, two Midterms and a Final.  All are in class, on paper, and without electronic technology of any kind.  The Final will happen at the scheduled time.  See the [Exams](exams) tab.  Note that I will prepare review guides as we approach the exams.
 
 ---
 _Site design derived from [coordinated Calc I](https://uaf-math251.github.io/), an original [Jekyll](https://jekyllrb.com/) design by [David Maxwell](https://damaxwell.github.io/)._
