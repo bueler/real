@@ -2,7 +2,7 @@ semester: Fall 2025
 home: assets/homework/F25
 homework:
 - name: Assignment 1
-  due: FIXME
-  #blank: A1.pdf
+  due: Friday, 5 September
+  blank: A1-Template.pdf
   #seealsoname: slides "How to put a polynomial through points"
   #seealsopdf: https://bueler.github.io/numerical/assets/slides/F24/polynonewt.pdf
