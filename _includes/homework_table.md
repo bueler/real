@@ -5,10 +5,13 @@
 	<td>
 		<table class="inner">
 		  <tr>
-            <td><a href="{{ data.home }}/{{ hw.blank }}">{{ hw.name }} (PDF)</a></td>
+            <td>Homework {{ hw.name }}</td>
 		  </tr>
 		  <tr>
             <td>due {{ hw.due }}</td>
+		  </tr>
+		  <tr>
+            <td><a href="{{ data.home }}/{{ hw.source }}">{{ hw.source }}</a> -> <a href="{{ data.home }}/{{ hw.blank }}">PDF</a></td>
 		  </tr>
 		  {% if hw.seealsopdf %}
 			  <tr>
