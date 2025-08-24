@@ -3,8 +3,6 @@ layout: course-page
 title: Bueler's Math F401 at UAF
 ---
 
-# CAUTION: STILL UNDER CONSTRUCTION!!
-
 Welcome to the public homepage of **Math F401 Introduction to Real Analysis**, Fall 2025, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
 #### Instructor:  [Ed Bueler](http://bueler.github.io/)

@@ -1,14 +1,17 @@
 semester: Fall 2025
 home: assets/exams/F25
 exams:
-- name: Midterm Exam
-  date: FIXME
-  info: <b>in class</b> or proctored
+- name: Midterm Exam 1
+  date: Friday 3 October
+  info: <b>in class</b>
   #reviewguide: midreview.pdf
   #blank: midterm.pdf
   #solutions: midsolns.pdf
+- name: Midterm Exam 2
+  date: Friday 7 November
+  info: <b>in class</b>
 - name: Final Exam
-  date: FIXME
-  info: <b>in class</b> or proctored
+  date: Tuesday 9 December
+  info: <b>in class</b>, 1:00--3:00 pm
   #reviewguide: finalreview.pdf
   #rubric: finalrubric.pdf
