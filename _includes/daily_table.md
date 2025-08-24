@@ -2,18 +2,18 @@
 
 <ul>
 {% for material in data.daily %}
-<li style="margin-bottom: 10px;"><b>{{ material.name }}</b> {{ material.description }}
+<li style="margin-bottom: 10px;"><b>{{ material.day }}</b>
+    {% if material.cover %}
+        <br>covering: {{ material.cover }}
+    {% endif %}
     {% if material.due %}
-        <br><b>due: {{ material.due }}</b>
+        <br><span style="color: #8B0000;">due: {{ material.due }}</span>
     {% endif %}
     {% if material.more %}
         <br>{{ material.more }}
     {% endif %}
     {% if material.chapter %}
-        <br>(Chapter {{ material.chapter }})
-    {% endif %}
-    {% if material.chapters %}
-        <br>(Chapters {{ material.chapters }})
+        <br>(start Chapter {{ material.chapter }})
     {% endif %}
     {% if material.doc %}
         <br><a href="{{ data.home }}/{{ material.doc }}">{{ material.docname }}</a>
