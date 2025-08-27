@@ -2,7 +2,7 @@ semester: Fall 2025
 home: assets/homework/F25
 homework:
 - name: Assignment 1
-  due: Friday 29 August
+  due: Wednesday 3 September
   source: A1-Template.tex
   blank: A1-Template.pdf
   #seealsoname: slides "How to put a polynomial through points"

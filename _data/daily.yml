@@ -1,11 +1,12 @@
 semester: Fall 2025
 home: assets/
 daily:
-- day: Friday 29 August
+- day: Wednesday 3 September
   cover: TBD
-  due: Homework Assignment 1
+- day: Friday 29 August
+  cover: proof basics, working with real numbers
 - day: Wednesday 27 August
-  cover: numbers, proof basics, working with real numbers
+  cover: numbers
 - day: Monday 25 August
   cover: course basics, doing homework
   chapter: 1
