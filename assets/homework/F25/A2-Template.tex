@@ -36,7 +36,7 @@
     $$\bigcap_{n=1}^\infty (0,1/n)=\emptyset.$$
 \end{problem}
 
-% PLEASE READ:  Let $S = \cap_{n=1}^\infty (0,1/n)$.  Show by contradiction that $x\in S$ is false for every $x\in\RR$?
+% PLEASE READ:  Some suggestions for the proof:  Give the set a name, e.g. $S = \bigcap_{n=1}^\infty (0,1/n)$.  Then show by contradiction that $x\in S$ is false for every $x\in\RR$.  What property of the real numbers helps to show that, however small, a positive number is not in $S$?
 
 \begin{proof}
 % FILL IN
@@ -47,17 +47,15 @@
 Given a function $f$ and a subset $A$ of its domain, consider the image $f(A) = \{f(x) : x \in A\}$.
 
 \begin{itemize}
-\item[(a)] An example of two sets $A$ and $B$, and a function $f$, for which $f(A \cap B) \neq f(A) \cap f(B)$ is
+\item[(a)] An example of a function $f$, and two subsets $A,B$ of the domain of $f$, for which $f(A \cap B) \neq f(A) \cap f(B)$ is
 
-% PUT EXAMPLE HERE
+% PUT EXAMPLE HERE.  When you give an example you need to clearly say what $f$ is as a function, including its precise domain.  That domain must include $A$ and $B$ as subsets.  Of course you must be precise about the sets $f(A),f(B),f(A\cap B)$ too.
 
-% IN PART (b), FORM A CONJECTURE, AND THEN PROVE AS A PROPOSITION, A RELATIONSHIP BETWEEN  f(A \cup B) and f(A) \cup f(B)
-\item[(b)] If $A$, $B$ are subsets of the domain of $f$ then
-
-% COMPLETE STATEMENT OF PROPOSITION
+% IN PART (b), FORM A CONJECTURE, AND THEN PROVE AS A PROPOSITION, A RELATIONSHIP BETWEEN  f(A \cup B) AND f(A) \cup f(B)
+\item[(b)] If $A$, $B$ are subsets of the domain of $f$ then $f(A \cup B)$ IS RELATED IN SOME WAY TO $f(A) \cup f(B)$.
 
 \begin{proof}
-% FILL IN
+% FILL IN THE PROOF
 \end{proof}
 \end{itemize}
 \end{problem}
@@ -68,11 +66,14 @@ If $a\in\RR$ is an upper bound for $A\subset \RR$, and if $a$ is also an element
 \end{problem}
 
 \begin{proof}
-% FILL IN
+% FILL IN THE PROOF
 \end{proof}
 
 
 \begin{problem} % Problem 9
+
+% FOR EACH PART, FILL IN THE INFIMA AND SUPREMA.  YOU DO NOT HAVE TO PROVE ANYTHING.
+
 \begin{enumerate}[(a)]
 \item Let $A=\{m/n: \text{ $m,n\in\NN$ with $m<n$} \}$.  Then $\inf A = $ and $\sup A = $.
 \item Let $B=\{(-1)^m/n: n,m\in\NN\}$.  Then $\inf B = $ and $\sup B = $.
@@ -81,7 +82,58 @@ If $a\in\RR$ is an upper bound for $A\subset \RR$, and if $a$ is also an element
 \end{enumerate}
 \end{problem}
 
-% PLEASE READ:  FILL IN THE INFIMA AND SUPREMA ABOVE.  YOU DO NOT HAVE TO PROVE ANYTHING.
+
+\begin{problem} % Problem 10
+
+% PLEASE READ:  Decide if the following statements are true.  Give a short proof for the true statements and a counterexample for the false statements.
+
+\begin{enumerate}[(a)]
+\item If $A$ and $B$ are nonempty, bounded, and satisfy $A\subseteq B$
+then $\sup A\le \sup B$.
+
+% UNCOMMENT AND FILL-IN ONE OF THESE
+% \begin{proof}  \end{proof}
+% \bigskip This is false because
+
+\item If $\sup A< \inf B$ for nonempty sets $A$ and $B$, then there exists
+$c\in\RR$ such that $a<c<b$ for all $a\in A$ and $b\in B$.
+
+% UNCOMMENT AND FILL-IN ONE OF THESE
+% \begin{proof}  \end{proof}
+% \bigskip This is false because
+
+\item If there exists $c\in\RR$ satisfying $a<c<b$ for all
+$a\in A$ and $b\in B$ then $\sup A< \inf B$. 
+
+% UNCOMMENT AND FILL-IN ONE OF THESE
+% \begin{proof}  \end{proof}
+% \bigskip This is false because
+
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem} % Problem 11
+\newcommand{\II}{\mathbb{I}}
+Denote the irrational numbers by $\II = \RR \setminus \QQ$.
+\begin{enumerate}[(a)]
+\item If $a,b\in\QQ$ then $ab\in\QQ$ and $a+b\in\QQ$.
+
+\begin{proof}
+% FILL IN THE PROOF
+\end{proof}
+
+\item If $a\in\QQ$ and $t\in\II$ then $a+t\in\II$.  If also $a\neq 0$ then $at\in\II$.
+
+\begin{proof}
+% FILL IN THE PROOF
+\end{proof}
+
+\item Suppose $s,t\in\II$.  Then PROPOSITION ABOUT WHETHER $st$ AND $s+t$ ARE EITHER RATIONAL OR IRRATIONAL IN GENERAL.
+
+% PLEASE READ: Part (a) says that the rational numbers are closed under multiplication and addition.  What can be said about $st$ and $s+t$ when $s,t\in\II$?  Formulate a conjecture and/or example and prove it.
+\end{enumerate}
+\end{problem}
 
 
 

@@ -1,6 +1,10 @@
 semester: Fall 2025
 home: assets/homework/F25
 homework:
+- name: Assignment 2
+  due: Friday 12 September
+  source: A2-Template.tex
+  blank: A2-Template.pdf
 - name: Assignment 1
   due: Wednesday 3 September
   source: A1-Template.tex
