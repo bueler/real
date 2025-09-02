@@ -15,6 +15,9 @@
     {% if material.chapter %}
         <br>(start Chapter {{ material.chapter }})
     {% endif %}
+    {% if material.worksheet %}
+        <br>worksheet: <a href="{{ data.home }}/{{ material.worksheet }}">{{ material.worksheetname }} (PDF)</a>
+    {% endif %}
     {% if material.doc %}
         <br><a href="{{ data.home }}/{{ material.doc }}">{{ material.docname }}</a>
     {% endif %}
