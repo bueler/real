@@ -1,8 +1,10 @@
 semester: Fall 2025
-home: assets/
+home: assets
 daily:
 - day: Wednesday 3 September
-  cover: TBD
+  cover: decimal expansions, axiom of completeness
+  worksheet: worksheets/F25/decimal.pdf
+  worksheetname: decimal expansions of real numbers
 - day: Friday 29 August
   cover: proof basics, working with real numbers
 - day: Wednesday 27 August

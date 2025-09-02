@@ -1,0 +1,163 @@
+\documentclass[11pt]{amsart}
+%prepared in AMSLaTeX, under LaTeX2e
+\addtolength{\oddsidemargin}{-.9in} 
+\addtolength{\evensidemargin}{-.9in}
+\addtolength{\topmargin}{-.9in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\textheight}{1.5in}
+
+\renewcommand{\baselinestretch}{1.05}
+
+\usepackage{verbatim} % for "comment" environment
+
+\usepackage{palatino,enumitem}
+
+\usepackage[final]{graphicx}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\usepackage{enumitem,xspace,fancyvrb}
+
+\newtheorem*{thm}{Theorem}
+\newtheorem*{defn}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem*{problem}{Problem}
+\newtheorem*{remark}{Remark}
+
+\DefineVerbatimEnvironment{mVerb}{Verbatim}{numbersep=2mm,frame=lines,framerule=0.1mm,framesep=2mm,xleftmargin=4mm,fontsize=\footnotesize}
+
+% macros
+\usepackage{amssymb}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\bE}{\mathbf{E}}
+\newcommand{\bF}{\mathbf{F}}
+\newcommand{\bJ}{\mathbf{J}}
+
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\br}{\mathbf{r}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+
+\newcommand{\hbi}{\mathbf{\hat i}}
+\newcommand{\hbj}{\mathbf{\hat j}}
+\newcommand{\hbk}{\mathbf{\hat k}}
+\newcommand{\hbn}{\mathbf{\hat n}}
+\newcommand{\hbr}{\mathbf{\hat r}}
+\newcommand{\hbt}{\mathbf{\hat t}}
+\newcommand{\hbx}{\mathbf{\hat x}}
+\newcommand{\hby}{\mathbf{\hat y}}
+\newcommand{\hbz}{\mathbf{\hat z}}
+\newcommand{\hbphi}{\mathbf{\hat \phi}}
+\newcommand{\hbtheta}{\mathbf{\hat \theta}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\ppr}[1]{\frac{\partial #1}{\partial r}}
+\newcommand{\ppt}[1]{\frac{\partial #1}{\partial t}}
+\newcommand{\ppx}[1]{\frac{\partial #1}{\partial x}}
+\newcommand{\ppy}[1]{\frac{\partial #1}{\partial y}}
+\newcommand{\ppz}[1]{\frac{\partial #1}{\partial z}}
+\newcommand{\pptheta}[1]{\frac{\partial #1}{\partial \theta}}
+\newcommand{\ppphi}[1]{\frac{\partial #1}{\partial \phi}}
+\newcommand{\Div}{\ensuremath{\nabla\cdot}}
+\newcommand{\Curl}{\ensuremath{\nabla\times}}
+\newcommand{\curl}[3]{\ensuremath{\begin{vmatrix} \hbi & \hbj & \hbk \\ \partial_x & \partial_y & \partial_z \\ #1 & #2 & #3 \end{vmatrix}}}
+\newcommand{\cross}[6]{\ensuremath{\begin{vmatrix} \hbi & \hbj & \hbk \\ #1 & #2 & #3 \\ #4 & #5 & #6 \end{vmatrix}}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\grad}{\nabla}
+\newcommand{\image}{\operatorname{im}}
+\newcommand{\integers}{\mathbb{Z}}
+\newcommand{\ip}[2]{\ensuremath{\left<#1,#2\right>}}
+\newcommand{\lam}{\lambda}
+\newcommand{\lap}{\triangle}
+\newcommand{\note}[1]{[\scriptsize #1 \normalsize]}
+\newcommand{\MatIN}[1]{\mtt{>> #1}}
+\newcommand{\onull}{\operatorname{null}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\range}{\operatorname{range}}
+\renewcommand{\P}{\mathcal{P}}
+\newcommand{\real}{\mathbb{R}}
+\newcommand{\trace}{\operatorname{tr}}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.}\quad }
+\newcommand{\exer}[2]{\prob{Exercise #2 on page #1}}
+\newcommand{\exerpages}[2]{\prob{Exercise #2 on pages #1}}
+
+\newcommand{\pts}[1]{(\emph{#1 pts}) }
+\newcommand{\epart}[1]{\bigskip\noindent\textbf{(#1)}\quad }
+\newcommand{\ppart}[1]{\,\textbf{(#1)}\quad }
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+\newcommand{\Octave}{\textsc{Octave}\xspace}
+\newcommand{\MO}{\textsc{Matlab}/\textsc{Octave}\xspace}
+
+\newcommand{\boxtop}[1]{\frac{\boxed{\phantom{foo}}}{#1}}
+\newcommand{\wboxtop}[1]{\frac{\boxed{\phantom{foo foo foo}}}{#1}}
+
+
+\begin{document}
+\scriptsize \noindent Math 401 Introduction to Real Analysis \hfill Bueler
+\normalsize\medskip
+
+\Large\centerline{\textbf{Worksheet: Decimal expansions of real numbers.}}
+\medskip
+\normalsize
+
+\thispagestyle{empty}
+
+\begin{quote}
+The goals here are \emph{(1)} recall the precise meaning of decimal expansions, and \emph{(2)} initiate the idea of completeness.  Here we see, from decimal expansions, why all positive real numbers are ``least upper bounds'' for sets of rational numbers.
+\end{quote}
+
+\bigskip
+\begin{enumerate}[leftmargin=-1mm]
+\renewcommand{\labelenumi}{\textbf{\arabic{enumi}.}}
+\item Consider the irrational real number $e = 2.718281828459045\dots$.  To confirm the meaning of this expansion, fill in the numerators:
+	$$e = 2 + \boxtop{10} + \boxtop{100} + \boxtop{1000} + \boxtop{10^4} + \boxtop{10^5} + \dots$$
+
+\bigskip
+\item The terminating (``finite'') decimal approximations of $e$ are \emph{rational numbers}, that is, fractions of natural numbers.  Fill in numerators; there is no need to write in lowest terms:
+\begin{align*}
+2.70000000000\dots &= \frac{27}{10}  & 2.71820000000\dots &= \wboxtop{10^4} \\
+2.71000000000\dots &= \boxtop{100}   & 2.71828000000\dots &= \wboxtop{10^5} \\
+2.71800000000\dots &= \wboxtop{1000} & &\vdots
+\end{align*}
+\bigskip
+\item Of course, the fractions in item \textbf{2} above are each \emph{less than} $e$:
+\begin{align*}
+2.70000000000\dots &< e = 2.718281828459045\dots \\
+2.71000000000\dots &< e \\
+2.71800000000\dots &< e \\
+2.71820000000\dots &< e \\
+&\vdots
+\end{align*}
+(\emph{Nothing to fill in here.  But please make sure you agree!})
+
+\medskip
+\item \textbf{The main idea.}  Write an infinite set of rational numbers for which $e$ is an \emph{upper bound}, and for which no number smaller than $e$ is an upper bound:
+
+$$\Big\{ \hspace{5.0in} \Big\}$$
+\vfill
+\item The number $e$ is usually defined, for example during calculus II, as
+	$$e = \sum_{n=0}^\infty \frac{1}{n!}$$
+This gives another set of rational numbers which are less than $e$ but for which no number less than $e$ is also an upper bound:
+
+$$\Big\{ \hspace{5.0in} \Big\}$$
+\vfill
+\clearpage\newpage
+\item In \textbf{4} and \textbf{5} it says ``set of rational numbers''.  Of course, they are also \emph{sequences} of rational numbers.  What is the difference?
+
+\vspace{1.0in}
+\item Write a sequence $(a_n)$ for \textbf{4}, and then a sequence $(b_n)$ for \textbf{5}.  For the latter you can use partial sum notation.
+\vfill
+\item Do the same as in \textbf{4}, but for the irrational square root of $2$, i.e.~$\sqrt{2} = 1.4142135623730950488\dots$.
+
+$$\Big\{ \hspace{5.0in} \Big\}$$
+
+\bigskip
+\item Suppose you do not ``know'' a decimal expansion for $\sqrt{2}$.  Describe in words how you might construct a specific set $S$ of rational numbers for which $y=\sqrt{2}$ is an upper bound, and for which no smaller number is an upper bound.  (\emph{There are many correct answers.})
+\vfill
+\end{enumerate}
+
+\end{document}
