@@ -1,6 +1,10 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Monday 8 September
+  cover: work on Assignment 2, more completeness
+- day: Friday 5 September
+  cover: consequences of completeness
 - day: Wednesday 3 September
   cover: decimal expansions, axiom of completeness
   worksheet: worksheets/F25/decimal.pdf
@@ -12,8 +16,8 @@ daily:
 - day: Monday 25 August
   cover: course basics, doing homework
   chapter: 1
+
   #more: x
-  #chapter: x
   #otherurl: https://www.youtube.com/watch?v=UhZfwzB9E_Q
   #otherurlname: "YouTube video: simulation of OSIRIS-APEX to asteroid Apophis"
   #doc: slides/F24/polynonewt.pdf
