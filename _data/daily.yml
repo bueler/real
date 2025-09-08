@@ -1,6 +1,12 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Friday 12 September
+  cover: CLASS CANCELED
+- day: Wednesday 10 September
+  cover: cardinality
+  otherurl: https://www.youtube.com/watch?v=QXQNet2yTdk
+  otherurlname: "YouTube video: the future of math is programming"
 - day: Monday 8 September
   cover: work on Assignment 2, more completeness
 - day: Friday 5 September
@@ -18,7 +24,5 @@ daily:
   chapter: 1
 
   #more: x
-  #otherurl: https://www.youtube.com/watch?v=UhZfwzB9E_Q
-  #otherurlname: "YouTube video: simulation of OSIRIS-APEX to asteroid Apophis"
   #doc: slides/F24/polynonewt.pdf
   #docname: "PDF slides: How to put a polynomial through points"
