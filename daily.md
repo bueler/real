@@ -1,11 +1,11 @@
 ---
 layout: course-page
-title: Daily Log and Materials
+title: Daily Log
 ---
 
-## Daily Log and Materials
+## Daily Log
 
-Daily topics and PDFs (handouts and worksheets) will appear here as they occur.  You **do not** have to turn-in any handout or worksheet!
+Daily topics, and certain materials include PDFs (handouts and worksheets), and links, will appear here as they arise.  You **do not** have to turn-in any handout or worksheet!
 
 {% include daily_table.md  data=site.data.daily %}
 
