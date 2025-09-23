@@ -1,6 +1,15 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Wednesday 24 September
+  cover: practicing proofs
+- day: Monday 22 September
+  cover: proving convergence
+- day: Friday 19 September
+  cover: Cantor's theorem; sequences
+  chapter: 2
+- day: Wednesday 17 September
+  cover: countability and uncountability
 - day: Monday 15 September
   cover: more cardinality
 - day: Friday 12 September
