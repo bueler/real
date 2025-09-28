@@ -1,6 +1,10 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Monday 29 September
+  cover: reciprocals of sequences, series
+- day: Friday 26 September
+  cover: boundedness, sums and products of sequences
 - day: Wednesday 24 September
   cover: practicing proofs
 - day: Monday 22 September
