@@ -3,6 +3,8 @@ home: assets
 daily:
 - day: Monday 29 September
   cover: reciprocals of sequences, series
+  doc: exams/F25/mid1review.pdf
+  docname: review guide for Midterm Exam 1
 - day: Friday 26 September
   cover: boundedness, sums and products of sequences
 - day: Wednesday 24 September
