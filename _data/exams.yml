@@ -4,7 +4,7 @@ exams:
 - name: Midterm Exam 1
   date: Friday 3 October
   info: <b>in class</b>
-  #reviewguide: midreview.pdf
+  reviewguide: mid1review.pdf
   #blank: midterm.pdf
   #solutions: midsolns.pdf
 - name: Midterm Exam 2
