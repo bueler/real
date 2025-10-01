@@ -1,6 +1,10 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Friday 3 October
+  cover: Midterm Exam 1
+- day: Wednesday 1 October
+  cover: practice Midterm 1
 - day: Monday 29 September
   cover: reciprocals of sequences, series
   doc: exams/F25/mid1review.pdf
