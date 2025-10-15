@@ -2,9 +2,9 @@ semester: Fall 2025
 home: assets
 daily:
 - day: Wednesday 15 October
-  cover: Cauchy sequences
+  cover: Bolzano-Weierstrauss; Cauchy sequences
 - day: Monday 13 October
-  cover: subsequences and Bolzano-Weierstrauss
+  cover: subsequences
 - day: Friday 10 October
   cover: MCT applications, alternating series
 - day: Wednesday 8 October
