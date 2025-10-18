@@ -1,8 +1,14 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Wednesday 22 October
+  cover: series overview
+- day: Monday 20 October
+  cover: board proofs
+- day: Friday 17 October
+  cover: Cauchy sequences and criterion
 - day: Wednesday 15 October
-  cover: Bolzano-Weierstrauss; Cauchy sequences
+  cover: Bolzano-Weierstrauss theorem
 - day: Monday 13 October
   cover: subsequences
 - day: Friday 10 October
