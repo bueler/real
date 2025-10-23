@@ -48,7 +48,7 @@
 \end{enumerate}
 \end{problem}
 
-% PLEASE READ: This is Theorem 2.7.4 in the textbook.  There it suggests a proof using the Cauchy Criterion for series, namely Theorem 2.7.2.  Please flesh this out, giving separate, complete proofs for (i) and (ii).
+% PLEASE READ: This is Theorem 2.7.4 in the textbook.  The textbook suggests a proof using the Cauchy Criterion for series, namely Theorem 2.7.2.  Please flesh this out, giving separate, complete proofs for (i) and (ii).
 
 \begin{proof}
 % FILL IN
@@ -59,16 +59,20 @@
 (Alternating Series Test)
 
 \medskip
-\noindent Suppose $(a_n)$ be a \emph{nonnegative} sequence satisfying
+\noindent Suppose $(a_n)$ is a \emph{nonnegative} sequence which satisfies
 \renewcommand{\labelenumi}{\emph{(\roman{enumi})}}
 \begin{enumerate}
-\item $a_1 \ge a_2 \ge \dots \ge a_n \ge a_{n+1} \ge \dots$
-\item $a_n \to 0$ as $n\to\infty$
+\item $(a_n)$ is decreasing, and
+\item $\ds \lim_{n\to\infty} a_n = 0$.
 \end{enumerate}
 Then the alternating series $\ds \sum_{n=1}^\infty (-1)^{n+1} a_n$ converges.
 \end{problem}
 
-% PLEASE READ: The Alternating Series Test is Theorem 2.7.7 in the textbook.  As the textbook points out in Exercise 2.7.1, you can build proofs based on either (a) proving that the partial sums form a Cauchy sequence and then using the Cauchy Criterion for sequences, or (b) building nested intervals and applying the Nested Interval Property to get a candidate limit and then proving that the partial sums converge to that candidate limit, or (c) considering the even-index and odd-index subsequences of the sequence of partial sums and showing that the Monotone Convergence Theorem gives candidate limits which you show are the same and are thus the limit of the partial sums.  Instructions:  Prove using one of these strategies!
+% PLEASE READ: The Alternating Series Test is Theorem 2.7.7 in the textbook.  As the textbook points out in Exercise 2.7.1, you can build proofs based on any of three strategies:
+% (a) proving that the partial sums form a Cauchy sequence and then using the Cauchy Criterion for sequences, or
+% (b) building nested intervals and applying the Nested Interval Property to get a candidate limit and then proving that the partial sums converge to that candidate limit, or
+% (c) considering the even-index and odd-index subsequences of the sequence of partial sums and showing that the Monotone Convergence Theorem gives candidate limits which you show are the same and are thus the limit of the partial sums.
+% Instructions:  Prove using one of these strategies!
 
 \begin{proof}
 % FILL IN
@@ -76,7 +80,7 @@ Then the alternating series $\ds \sum_{n=1}^\infty (-1)^{n+1} a_n$ converges.
 
 
 \begin{problem} % Problem 46
-For each of the sets below, decide whether it is open, closed, or neither.  If a set is not open, find a point in the set for which there is no $\eps$-neighborhood contained in the set.  If a set is not closed, find a limit point that is not contained in the set.
+For each of the subsets of $\RR$ below, decide whether it is open, closed, or neither.  If a set is not open, find a point in the set for which there is no $\eps$-neighborhood contained in the set.  If a set is not closed, find a limit point that is not contained in the set.
 
 \renewcommand{\labelenumi}{\emph{(\alph{enumi})}}
 \begin{enumerate}
@@ -136,6 +140,8 @@ Decide whether the following statements are true or false.  Provide proofs for t
 
 % FILL IN
 
+% PLEASE READ:  Part (c) here will require quite a bit of thought.
+
 \end{enumerate}
 \end{problem}
 
@@ -144,17 +150,19 @@ Decide whether the following statements are true or false.  Provide proofs for t
 (De Morgan's Laws for arbitrary unions and intersections)
 
 \medskip
-\noindent Let $X$ be a set, which we call the universe set.  As usual, for any $A\subset X$ we write $A^c = \{x\in X\,:\,x \notin A\}$ for the complement set.  Also let $\Lambda$ be a set, a set of indices.  Consider
+\noindent Let $X$ be a set, which we call the universe set.  For any $A\subset X$ we write
+    $$A^c = \{x\in X\,:\,x \notin A\}$$
+for the complement set.  Also let $\Lambda$ be any set, which will be used as a set of indices.  Consider
 	$$\mathcal{E} = \left\{E_\lambda\subset X \,:\,\lambda \in \Lambda \right\},$$
 a collection of sets.  The following equalities hold:
 \renewcommand{\labelenumi}{\emph{(\roman{enumi})}}
 \begin{enumerate}
-\item $\ds \left(\bigcup_{\lambda\in\Lambda} E_\lambda\right)^c = $
-\item x
+\item $\ds \left(\bigcup_{\lambda\in\Lambda} E_\lambda\right)^c = \bigcap_{\lambda\in\Lambda} E_\lambda^{\,\,c}$
+\item $\ds \left(\bigcap_{\lambda\in\Lambda} E_\lambda\right)^c = \bigcup_{\lambda\in\Lambda} E_\lambda^{\,\,c}$
 \end{enumerate}
 \end{problem}
 
-% PLEASE READ: 
+% PLEASE READ:  Basically, chase elements from left to right and back, for each equality?  The one thing you *do not* want to do is assume that \Lambda is either finite or countable.  The whole point here is that *arbitrary* collections of sets have this property.
 
 \begin{proof}
 % FILL IN
@@ -162,10 +170,10 @@ a collection of sets.  The following equalities hold:
 
 
 \begin{problem} % Problem 50
-Exercise 3.2.13?
+If $A \subset \RR$ is both open and closed then either $A=\emptyset$ or $A=\RR$.
 \end{problem}
 
-% PLEASE READ: x
+% PLEASE READ: It is straightfoward to confirm that the empty set and R itself are both open and closed; say a bit about that first.  Then consider any other set A.  Now both A and A^c are nonempty, right?  Thus you can pick x \noeq y where x \in A and y \in A^c.  Consider the bounded interval [x,y], noting (x,y) is nonempty.  Find a point within that interval which must both be in A and A^c, a contradition.
 
 \begin{proof}
 % FILL IN
