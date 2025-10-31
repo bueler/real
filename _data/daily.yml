@@ -1,6 +1,10 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Monday 3 November
+  cover: cont.
+- day: Friday 31 October
+  cover: cont.; compact sets
 - day: Wednesday 29 October
   cover: limit points and closed sets
 - day: Monday 27 October
