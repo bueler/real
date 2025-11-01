@@ -10,6 +10,7 @@ exams:
 - name: Midterm Exam 2
   date: Friday 7 November
   info: <b>in class</b>
+  reviewguide: mid2review.pdf
 - name: Final Exam
   date: Tuesday 9 December
   info: <b>in class</b>, 1:00--3:00 pm
