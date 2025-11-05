@@ -5,6 +5,6 @@ title: Exams
 
 ## Exams
 
-The table below gives the date and coverage for the Exams; also see the [Schedule](assets/general/F25/schedule.pdf).  Exam review material will be posted here.  Exam solutions will be posted at the [Canvas site](https://canvas.alaska.edu/courses/27104).
+The table below gives the date and coverage for the Exams; also see the [Schedule](assets/general/F25/schedule.pdf).  Exam Review Guides will be posted here.  Practice exams, and exam solutions, will appear at the [Canvas site](https://canvas.alaska.edu/courses/27104).
 
 {% include exam_table.md  data=site.data.exams %}
