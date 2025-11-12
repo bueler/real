@@ -1,6 +1,13 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Friday 14 November
+  cover: functional limits
+  chapter: 4
+- day: Wednesday 12 November
+  cover: connected sets
+- day: Monday 10 November
+  cover: compacet sets
 - day: Friday 7 November
   cover: Midterm Exam 2
 - day: Wednesday 5 November
