@@ -1,6 +1,10 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Wednesday 19 November
+  cover: continuity
+- day: Monday 17 November
+  cover: continued
 - day: Friday 14 November
   cover: functional limits
   chapter: 4
