@@ -1,8 +1,12 @@
 semester: Fall 2025
 home: assets
 daily:
-- day: Friday 21 November
+- day: Monday 1 December
+  cover: uniform continuity
+- day: Monday 24 November
   cover: continuous functions on compact and connected sets
+- day: Friday 21 November
+  cover: continued
   otherurl: https://www.youtube.com/watch?v=td7Nz9ATyWY
   otherurlname: "YouTube video: Compactness, The Concept So Much of Modern Math is Built On"
 - day: Wednesday 19 November
