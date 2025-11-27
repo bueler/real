@@ -1,0 +1,117 @@
+\documentclass[12pt]{amsart}
+\addtolength{\topmargin}{-0.6in} % usually -0.25in
+\addtolength{\textheight}{1.1in} % usually 1.25in
+\addtolength{\oddsidemargin}{-0.7in}
+\addtolength{\evensidemargin}{-0.7in}
+\addtolength{\textwidth}{1.5in} %\setlength{\parindent}{0pt}
+
+\newcommand{\normalspacing}{\renewcommand{\baselinestretch}{1.04}\tiny\normalsize}
+
+\normalspacing
+
+% macros
+\usepackage{amssymb,xspace}
+\usepackage{tikz}
+\usepackage[pdftex,colorlinks=true]{hyperref}
+
+
+\newtheorem*{thm}{Theorem}
+\newtheorem*{lem}{Lemma}
+
+\newcommand{\mtt}{\texttt}
+\newcommand{\mtl}[1]{{\texttt{>>#1}}}
+\usepackage{alltt}
+\usepackage{fancyvrb}
+
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+
+\newcommand{\CC}{{\mathbb{C}}}
+\newcommand{\QQ}{{\mathbb{Q}}}
+\newcommand{\RR}{{\mathbb{R}}}
+\newcommand{\ZZ}{{\mathbb{Z}}}
+\newcommand{\ZZn}{{\mathbb{Z}}_n}
+\newcommand{\NN}{{\mathbb{N}}}
+
+\newcommand{\eps}{\epsilon}
+\newcommand{\grad}{\nabla}
+\newcommand{\lam}{\lambda}
+\newcommand{\ip}[2]{\mathrm{\left<#1,#2\right>}}
+\newcommand{\erf}{\operatorname{erf}}
+
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+\newcommand{\Arg}{\operatorname{Arg}}
+
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\range}{\operatorname{range}}
+\newcommand{\trace}{\operatorname{tr}}
+\newcommand{\Null}{\operatorname{null}}
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+\newcommand{\Octave}{\textsc{Octave}\xspace}
+\newcommand{\pylab}{\textsc{pylab}\xspace}
+\newcommand{\longMOP}{\textsc{Matlab}\big|\textsc{Octave}\big|\textsc{pylab}\xspace}
+\newcommand{\MOP}{\textsc{M}\big|\textsc{O}\big|\textsc{p}\xspace}
+
+\newcommand{\prob}[1]{\bigskip\noindent\large\textbf{#1.} \normalsize}
+\newcommand{\bookprob}[1]{\bigskip\noindent\large\textbf{Exercise #1.} \normalsize}
+\newcommand{\probpart}[1]{\smallskip\noindent\textbf{(#1)}\quad }
+\newcommand{\aprobpart}[1]{\textbf{(#1)}\quad }
+
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+
+\begin{document}
+\scriptsize \noindent Math 401 Introduction to Real Analysis \hfill Bueler: \emph{version 1}
+\thispagestyle{empty}
+
+\bigskip
+\Large\textbf{\centerline{Final Exam: Prove 4 Theorems}}
+
+\medskip
+\large\textbf{\centerline{Tuesday, 9 December, 1:00pm--3:00pm, Chapman 204}}
+
+\normalsize
+\bigskip
+The in-class Final Exam is different from the Midterms, but it is of modest length and it has a clear path for preparation.  You will prove 4 major theorems which were important during the semester.  The specific theorems are listed below, but you do have some choices.  I will grade your proofs for completeness, correctness, and clarity.
+
+\smallskip
+\textbf{You will have this document in your hand when you do the Final Exam.}  However, you must \textbf{remember} what you want to say, because \textbf{you may NOT bring any notes, or the textbook, to the Exam.}
+
+\smallskip
+To prepare for the Final Exam, you are \textbf{strongly encouraged to draft and practice your proofs}.  Please do these things during your preparation:
+\begin{itemize}
+\item read the proofs in the textbook, and fill in the parts which are exercises, etc.,
+\item draft your proofs, 
+\item get feedback on your drafts from other students/friends/family/pets, or me, and
+\item decide in advance how you to remember enough details so that you can recreate the proofs during the Exam itself.
+\end{itemize}
+
+\smallskip
+\noindent \hrulefill
+\medskip
+
+\noindent {\large \textbf{Directions.}} \, Prove theorems \textbf{A} and \textbf{B}, and then choose one theorem from each category   \textbf{C} and \textbf{D}.  Put only one theorem on each sheet of paper.  Write ``\textbf{A}'' or ``\textbf{C2}'' etc.~in the top left corner of the sheet, and your name in the upper right.
+
+\newcommand{\Thm}[3]{\bigskip\noindent \textbf{{\large #1.} \, #2} (Thm #3) \,}
+
+\Thm{A}{Monotone Convergence Theorem}{2.4.2}  If a sequence is monotone and bounded then it converges.
+
+\Thm{B}{Bolzano-Weierstrass Theorem}{2.5.5}  Every bounded sequence contains a convergent subsequence.
+
+\Thm{C1}{Density of $\QQ$}{1.4.3}  
+
+\Thm{C2}{$(0,1)$ is Uncountable}{1.6.1}
+
+\Thm{D1}{basic Heine-Borel Theorem}{3.3.4}
+
+\Thm{D2}{Continuous Preserves Compactness}{4.4.1}
+
+\Thm{D3}{Continuous Preserves Connectness}{4.5.2}
+
+\end{document}
+
