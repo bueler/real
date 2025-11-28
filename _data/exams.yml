@@ -14,5 +14,5 @@ exams:
 - name: Final Exam
   date: Tuesday 9 December
   info: <b>in class</b>, 1:00--3:00 pm
-  #reviewguide: finalreview.pdf
-  #rubric: finalrubric.pdf
+  doc: final.pdf
+  rubric: finalrubric.pdf

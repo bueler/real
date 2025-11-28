@@ -24,7 +24,7 @@
         {% endif %}
         {% if exam.rubric %}
         <tr>
-            <td><a href="{{ data.home }}/{{ exam.rubric }}">rubric</a></td>
+            <td><a href="{{ data.home }}/{{ exam.rubric }}">grading rubric</a></td>
         </tr>
         {% endif %}
       </table>
