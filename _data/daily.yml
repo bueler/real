@@ -1,6 +1,11 @@
 semester: Fall 2025
 home: assets
 daily:
+- day: Friday 5 December
+  cover: product and chain rules
+- day: Wednesday 3 December
+  cover: derivatives
+  chapter: 5
 - day: Monday 1 December
   cover: uniform continuity
 - day: Monday 24 November
